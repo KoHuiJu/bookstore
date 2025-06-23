@@ -1,0 +1,149 @@
+#footer {
+    height: 230px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer .f_menu {
+    position: relative;
+    height: 65px;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    padding: 23px 0;
+}
+
+#footer .f_menu .inner {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+#footer .f_menu ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#footer .f_menu ul li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7px;
+    padding-left: 12px;
+}
+
+#footer .f_menu ul li a {
+    display: block;
+    font-size: 13px;
+    color: #000;
+    line-height: 19px;
+}
+
+#footer .f_menu ul li:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 14px;
+    margin-top: -7px;
+    background-color: #dadada;
+}
+
+
+#footer .f_menu ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#footer .f_menu ul li:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 14px;
+    margin-top: -7px;
+    background-color: #dadada;
+}
+
+#footer .f_menu ul li.privacy a {
+    font-weight: bold;
+}
+
+#footer .f_menu .sns_wrap {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 0;
+    margin-top: -12.5px;
+}
+
+#footer .f_menu .sns_wrap span {
+    display: block;
+}
+
+#footer .f_menu .sns_wrap span a {
+    margin-top: -7px;
+    display: block;
+    width: 138px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#footer .f_info {
+    height: 164px;
+    background-color: #f9f9f9;
+    
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+#footer .f_info .address {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+}
+
+#footer .f_info .address>a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px;
+    height: 20px;
+    line-height: 18px;
+    border: 1px solid #999999;
+    background-color: #eeeeee;
+    color: #999;
+    padding-left: 8px;
+    box-sizing: border-box;
+    font-size: 11px;
+}
+
+#footer .f_menu ul li:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 14px;
+    margin-top: -7px;
+    background-color: #dadada;
+}
+
+#footer .f_info .address p {
+    font-size: 11px;
+    line-height: 24px;
+    color: #999999;
+    padding-top: 25px;
+}

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "logoFont";
+  src: url("./assets/fonts/Pak_Yong_jun.otf");
+}
+
+/* 태그에 관련된 공통적 사항은 App.css에 넣는 것이 좋다 */
+
+

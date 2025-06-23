@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: NotoSans, Arial, sans-serif;
+    font-size: 15px;
+    color: #4d4d4d;
+}
+
+html, body {
+    height: 100%;
+    word-break: break-word;
+}
+
+.navi_depth2 {
+    position: relative;
+    height: 58px;
+    border-top: 1px solid #cfcfcf;
+    box-sizing: border-box;
+}
+
+.navi_depth2 .navi {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+.navi_depth2 .navi li.home {
+    width: 12px;
+    height: 12px;
+    background-image: url(/mmbs/ico_home.png);
+    padding-left: 0;
+    background-position: center center;
+    background-size: 100% 100%;
+    font-size: 0;
+    margin-left: 4px;
+}
+
+.navi_depth2 .navi li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    line-height: 57px;
+    background-image: url(/mmbs/navi_arrow.png);
+    background-repeat: no-repeat;
+    /* background-position: left center;
+    padding-left: 15px;
+    margin-left: 10px; */
+}
+
+#container.plan {
+    padding: 0 0 90px;
+}
+
+#container {
+    position: relative;
+    /* padding: 30px 0 90px; */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#container.plan .event_txt {
+    margin-top: -15px;
+}
+
+.event_txt {
+    height: 115px;
+    text-align: center;
+}
+
+.event_txt h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.event_txt h2:after {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #3f3f3f;
+    margin: 14px auto 0;
+}
+
+.event_txt p {
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 12px;
+    color: #000;
+}
+
+.event_tab {
+    font-size: 0;
+    margin-bottom: 34px;
+}
+
+button, input[type=button], a {
+    cursor: pointer;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.event_tab li.on {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #5e7b71;
+    border-bottom: 1px solid #fff;
+}
+
+.event_tab li:first-child {
+    border-right: 0px none;
+}
+
+.event_tab li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    text-align: center;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 52px;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-bottom: 1px solid #5e7b71;
+}
+
+.plan ul.event_list {
+    margin-top: 20px;
+}
+
+.plan ul.event_list li {
+    margin-bottom: 55px;
+}
+
+.event_list li a {
+    display: block;
+}
+
+.event_list {
+    position: relative;
+}
+.event_list li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.event_list li {
+    float: left;
+    width: 590px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 19px;
+    margin-bottom: 55px;
+}
+
+.event_list li .event_con {
+    width: 590px;
+    height: 320px;
+    position: relative;
+}
+
+.event_list li span.evt_title {
+    max-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    color: #4b4b4b;
+    line-height: 20px;
+    margin: 20px 0 0;
+    font-weight: bold;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.event_list li em {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+em, i, address {
+    font-style: normal;
+}
+
+.event_list li .event_con {
+    width: 590px;
+    height: 320px;
+    position: relative;
+}
+
+.event_list li .event_con img {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.event_list:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.pagination {
+    margin-top: 60px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0;
+}
+
+.pagination .on {
+    background-color: #5d7b71;
+    font-weight: 500;
+    color: #fff;
+}
+
+.pagination .prev {
+    background-image: url(/mmbs/page_prev\ \(1\).png);
+    margin-right: 14px;
+}
+
+.pagination .next {
+    background-image: url(/static/pc/images/common/page_next.png);
+    margin-left: 14px;
+}
+
+.pagination a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+}
+
+.pagination .next {
+    background-image: url(/mmbs/page_prev.png);
+    margin-left: 14px;
+}
+
+.pagination .prev, .pagination .next {
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+    background-color: #0c0c0c;
+    box-sizing: border-box;
+}

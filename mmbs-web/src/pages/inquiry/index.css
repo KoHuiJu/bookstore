@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navi_depth2 {
+    position: relative;
+    height: 58px;
+    border-top: 1px solid #cfcfcf;
+    box-sizing: border-box;
+}
+
+.navi_depth2 .navi {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.navi_depth2 .navi li.home {
+    width: 12px;
+    height: 12px;
+    background-image: url(/mmbs/ico_home.png);
+    padding-left: 0;
+    background-position: center center;
+    background-size: 100% 100%;
+    font-size: 0;
+    margin-left: 4px;
+}
+
+.navi_depth2 .navi li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    line-height: 57px;
+    background-image: url(/mmbs/navi_arrow.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.navi_depth2 .navi li.is_active {
+    font-weight: 500;
+}
+
+#container {
+    position: relative;
+    padding: 30px 0 90px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mypage .content {
+    float: right;
+    min-height: 800px;
+    margin-top: -25px;
+    width: 941px;
+}
+
+.mypage_txt {
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#container p.sub_title {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+
+.mypage p.sub_title {
+    padding-bottom: 34px;
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+
+.point_info_box_white {
+    padding: 5px;
+    background-image: url(/mmbs/bg.gif);
+}
+
+.point_info_box_white .inner {
+    background-color: #FFF;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.select_period_chk {
+    border: 1px solid #dbdbdb;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 7px;
+    box-sizing: border-box;
+}
+
+.select_period_chk li {
+    border-right: 1px solid #dbdbdb;
+    float: left;
+    width: 65px;
+    position: relative;
+    text-align: center;
+}
+
+.select_period_chk li input[type=radio] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+input[type=radio], input[type=checkbox] {
+    cursor: pointer;
+}
+
+.agree_order_wrap input[type=checkbox], input[type=radio] {
+    vertical-align: middle;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+.select_period_chk li input[type=radio] + label {
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    color: #3b3f4a;
+    display: block;
+    background: #fff;
+    user-select: none;
+    cursor: pointer;
+}
+
+.select_period_chk li input[type=radio]:checked + label {
+    background-color: #3b3f4a;
+    color: #fff;
+    display: block;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.select_period_chk li:last-child {
+    border-right: none;
+}
+
+.calendar_view > div input[type=text] {
+    display: block;
+    width: 70%;
+    border: none;
+    padding: 0 0 0 14px;
+    height: 100%;
+    line-height: 37px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #212121;
+    outline: none;
+}
+
+.calendar_view > div {
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    width: 143px;
+    height: 37px;
+    position: relative;
+}
+
+.point_info_box_white span {
+    display: inline-block;
+    font-size: 14px;
+    color: #212121;
+    font-weight: bold;
+    line-height: 37px;
+}
+
+.calendar_view {
+    display: inline-block;
+    height: 37px;
+    vertical-align: top;
+}
+
+.point_info_box_white select {
+    display: inline-block;
+    margin-right: 8px;
+    width: 122px;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    background: url(/mmbs/ico_down.png) no-repeat 100px 50%;
+    outline: none;
+    background-color: #fff;
+    height: 37px;
+    padding-left: 14px;
+}
+
+.point_info_box_white select option {
+    color: #212121;
+    font-size: 12px;
+}
+
+.point_info_box_white button {
+    display: inline-block;
+    width: 96px;
+    background-color: #3b3f4a;
+    text-align: center;
+    height: 37px;
+    color: #fff;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    line-height: 35px;
+    font-size: 13px;
+}
+
+.btn_top_area {
+    padding: 0 0 20px 0;
+    text-align: right;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.btn_top_area a {
+    padding: 0 30px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 13px;
+}
+
+.tbl_list_01 {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #b8b8b8;
+    border-top: 1px solid #5e7b71;
+}
+
+caption {
+    font-size: 0;
+}
+
+.tbl_list_01 table {
+    width: 100%;
+}
+
+table {
+    border-collapse: inherit;
+    border-spacing: 0;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+col {
+    display: table-column;
+}
+
+.tbl_list_01 thead tr th {
+    color: #000;
+    font-size: 14px;
+    height: 44px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.tbl_list_01 tbody tr td {
+    border-top: 1px solid #dfdfdf;
+    position: relative;
+    padding: 15px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.pagination {
+    margin-top: 60px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0;
+}
+
+.pagination .prev {
+    background-image: url(/mmbs/page_prev\ \(1\).png);
+    margin-right: 14px;
+}
+
+.pagination .prev, .pagination .next {
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+    background-color: #0c0c0c;
+    box-sizing: border-box;
+}
+
+em, i, address {
+    font-style: normal;
+}
+
+.pagination .on {
+    background-color: #5d7b71;
+    font-weight: 500;
+    color: #fff;
+}
+
+.pagination a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+}
+
+.pagination .next {
+    background-image: url(/mmbs/page_prev.png);
+    margin-left: 14px;
+}
+
+button, input[type=button], a {
+    cursor: pointer;
+}
+/* 
+.datepickr_begin flatpickr-input{
+    type-button
+} */

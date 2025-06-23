@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: NotoSans, Arial, sans-serif;
+    /* font-size: 15px;
+    color: #4d4d4d; */
+}
+
+html, body {
+    /* height: 100%; */
+    word-break: break-word;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+html, b .fontStyle1 {
+    /* color: #302c2d;
+    font-size: 14px; */
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+.password_navi {
+    position: relative;
+    height: 58px;
+    border-top: 1px solid #cfcfcf;
+    box-sizing: border-box;
+}
+
+.password_navi .navi {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.password_navi .navi li.home {
+    width: 12px;
+    height: 12px;
+    background-image: url(./mmbs/ico_home.png);
+    padding-left: 0;
+    background-position: center center;
+    background-size: 100% 100%;
+    font-size: 0;
+    margin-left: 4px;
+}
+
+.password_navi .navi li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    line-height: 57px;
+    background-image: url(./mmbs/navi_arrow.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.password_navi .navi li.is_active {
+    font-weight: 500;
+}
+
+#password_con {
+    position: relative;
+    padding: 30px 0 90px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#password_con.member {
+    padding: 0 0 90px;
+}
+
+#password_con.member .sub_con {
+    padding: 0;
+    margin-top: -15px;
+}
+
+.mypage_txt {
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.mypage_txt:after {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #3f3f3f;
+    margin: 14px auto 0;
+}
+
+.member .login_txt {
+    text-align: center;
+}
+
+.member .login_txt .sub_tit {
+    font-size: 14px;
+    color: #000;
+    line-height: 24px;
+}
+
+.member .box_find {
+    width: 560px;
+    margin: 30px auto 0;
+}
+
+.member .find .find_tab {
+    font-size: 0;
+    width: 100%;
+}
+
+
+.member .find .find_tab li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    height: 54px;
+    line-height: 52px;
+    background-color: #FFF;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    border-bottom: 1px solid #5e7b71;
+}
+
+.member .find .find_tab li a {
+    color: #6a6a6a;
+}
+
+button, input[type=button], a {
+    cursor: pointer;
+}
+
+a {
+    /* color: #333; */
+    text-decoration: none;
+}
+
+.member .find .find_tab li.on {
+    border: 1px solid #5e7b71;
+    border-bottom: 0px none;
+}
+
+.member .find .find_tab li.on a {
+    color: #000;
+    font-weight: bold;
+}
+
+button, input[type=button], a {
+    cursor: pointer;
+}
+
+.member .find .tab_content {
+    text-align: center;
+}
+
+.member .find .tab_content.pw .input_box {
+    height: 628px;
+}
+
+.member .login_txt {
+    /* text-align: center; */
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+
+.member .find .tab_content .input_box p.find_tit {
+    font-size: 16px;
+    color: #000;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.member .find .tab_content .input_box p.find_tit:after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 1px;
+    background-color: #000;
+    margin: 13px auto;
+}
+
+.member .find .tab_content .input_box > span.txt {
+    font-size: 14px;
+    color: #4b4b4b;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+.member .login_txt .txt {
+    display: block;
+    /* font-size: 14px;
+    color: #747474; */
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.member .login_txt .txt strong {
+    color: #000;
+}
+
+.member .find .tab_content .input_box ul {
+    margin-top: 25px;
+}
+
+.member .find .tab_content .input_box ul li {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.member .find .tab_content .input_box ul li > span {
+    float: left;
+    width: 72px;
+    text-align: left;
+    font-size: 13px;
+    color: #393a42;
+    line-height: 50px;
+}
+
+.member .find .tab_content .input_box ul li div {
+    float: right;
+    font-size: 0;
+    text-align: left;
+    width: 380px;
+}
+
+.member .find .tab_content .input_box ul li div input[type=text], .member .find .tab_content .input_box ul li div select {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    border: 1px solid #d5d5d5;
+    box-sizing: border-box;
+    padding: 0;
+    padding-left: 10px;
+    background-color: #FFF;
+}
+
+select {
+    /* -webkit-appearance: none; */
+    /* background-color: #FFF; */
+    outline: none;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+input[type=text], input[type=password], select, textarea, button {
+    font-family: NotoSans, Arial, sans-serif;
+}
+
+.member .find .tab_content .input_box ul li div select {
+    width: 118px;
+    background-position: 85% center;
+    padding-left: 20px;
+}
+
+.member .find .tab_content .input_box ul li div input[type=text],
+.member .find .tab_content .input_box ul li div select {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    border: 1px solid #d5d5d5;
+    box-sizing: border-box;
+    padding: 0;
+    padding-left: 10px;
+    background-color: #FFF;
+}
+
+select.select_option {
+    /* display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -moz-appearance: none; */
+    appearance: none;
+    /* background-color: #FFF; */
+    background-image: url(./mmbs/ico_down.png);
+    background-repeat: no-repeat;
+    /* background-position: 96% 50%; */
+    /* border: 0;
+    padding-left: 5px;
+    border-bottom: 1px solid #c3c3c3; */
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.member .find .tab_content .input_box ul li.phone input {
+    width: 116px;
+    margin-left: 10px;
+}
+
+input[type="text" i] {
+    /* padding: 1px 2px; */
+}
+
+.member .find .tab_content .input_box ul li div .btn_red {
+    display: inline-block;
+    vertical-align: middle;
+    width: 102px;
+    height: 38px;
+    text-align: center;
+    font-size: 12px;
+    color: #ed0027;
+    border: 1px solid #ed0027;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin-left: 25px;
+}
+
+button, input[type=button], a {
+    cursor: pointer;
+}
+
+input[type="button" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    /* text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext; */
+    padding: 1px 6px;
+    /* border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial; */
+}
+
+.member .find .tab_content .input_box span.info {
+    position: relative;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #4b4b4b;
+    font-weight: 400;
+    line-height: 22px;
+    padding-left: 12px;
+    letter-spacing: -0.9px;
+    word-break: keep-all;
+}
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+.member .find .tab_content .input_box span.info:before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 3px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.member .find .tab_content {
+    /* text-align: center; */
+}
+
+.member .login_txt {
+    /* text-align: center; */
+}
+
+.member .find .tab_content .input_box .btn {
+    margin: 35px auto 0;
+}
+
+.member .find .tab_content .btn {
+    display: block;
+    width: 136px;
+    height: 46px;
+    font-size: 14px;
+    line-height: 44px;
+}
+
+.member .find .tab_content.pw .input_box {
+    height: 628px;
+}
+
+.member .find .tab_content .input_box {
+    padding: 35px 50px;
+    box-sizing: border-box;
+    background-color: #FFF;
+}

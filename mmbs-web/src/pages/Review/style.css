@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+.navi_depth2 {
+    position: relative;
+    height: 58px;
+    border-top: 1px solid #cfcfcf;
+    box-sizing: border-box;
+}
+
+.navi_depth2 .navi {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.navi_depth2 .navi li.home {
+    width: 12px;
+    height: 12px;
+    background-image: url(./mmbs/ico_home.png);
+    padding-left: 0;
+    background-position: center center;
+    background-size: 100% 100%;
+    font-size: 0;
+    margin-left: 4px;
+}
+
+.navi_depth2 .navi li.is_active {
+    font-weight: 500;
+}
+
+.navi_depth2 .navi li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    line-height: 57px;
+    background-image: url(./mmbs/navi_arrow.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+#container.curation {
+    padding: 0 0 90px;
+}
+
+#container {
+    position: relative;
+    padding: 30px 0 90px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.curation_txt {
+    height: 115px;
+    text-align: center;
+}
+
+.curation_txt p {
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 12px;
+    color: #000;
+}
+
+.curation_txt h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+
+/* input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+} */
+
+button, input[type=button], a {
+    cursor: pointer;
+}
+
+.curation .review_tit {
+    overflow: hidden;
+}
+
+.curation .review_tit p {
+    float: left;
+    line-height: 31px;
+}
+
+.curation .review_tit p a {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #4a4a4a;
+    font-weight: 300;
+}
+
+.curation .review_tit p a em {
+    font-weight: bold;
+    color: #000000;
+}
+
+.curation .review_tit p a.photo {
+    position: relative;
+    padding-left: 12px;
+    margin-left: 12px;
+}
+
+em, i, address {
+    font-style: normal;
+}
+
+/* .curation .review_tit p a.photo:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 13px;
+    margin-top: -7.5px;
+    background-color: #e1e1e1;
+} */
+
+.curation .review_tit .select_default {
+    float: right;
+}
+
+select.select_default {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #FFF;
+    background-image: url(./mmbs/ico_down.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    border: 0;
+    height: 31px;
+    min-width: 144px;
+    padding-left: 5px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.curation .review {
+    position: relative;
+    border-top: 1px solid #000;
+    margin-top: 20px;
+}
+
+.curation .review > ul > li {
+    border-bottom: 1px solid #c5c5c5;
+    overflow: hidden;
+    padding: 30px 0 50px;
+}
+
+.curation .review > ul > li .thumbnail {
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin: 0 40px 0 10px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.curation .review > ul > li .review_cont {
+    float: left;
+    width: 990px;
+}
+
+.curation .review .point_wrap {
+    overflow: hidden;
+}
+
+.curation .review .point_wrap p.caption {
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 600px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.curation .review .point_wrap .writer {
+    float: right;
+}
+
+.curation .review .point_wrap .writer ul {
+    font-size: 0;
+}
+
+.curation .review .point_wrap .writer ul li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    padding-left: 25px;
+    margin-right: 25px;
+    line-height: 20px;
+}
+
+.curation .review .review_txt {
+    font-size: 14px;
+    line-height: 27px;
+    color: #4b4b4b;
+}
+
+.curation .review .review_txt .star_wrapper {
+    position: relative;
+}
+
+.curation .review .review_txt .star_wrapper ul {
+    font-size: 0;
+    margin-top: 15px;
+}
+
+.curation .review .review_txt .star_wrapper ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 35px;
+}
+
+.curation .review .review_txt .star_wrapper ul li.total span.tit {
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    line-height: 17px;
+}
+
+.curation .review .review_txt .star_wrapper ul li.total .star-rating, .curation .review .star_wrapper ul li.total .star-rating span {
+    height: 14px;
+    background-image: url(./mmbs/ico_star_bb.png);
+    background-size: 74px 28px;
+}
+
+.curation .review .review_txt .star_wrapper ul li.total .star-rating {
+    width: 74px;
+}
+
+.star_wrapper ul li.total .star-rating span {
+    height: 14px;
+    background-image: url(./mmbs/ico_star_bb.png);
+    background-size: 74px 28px;
+}
+
+.curation .review .review_txt .star_wrapper ul li.total .star-rating, .curation .review .star_wrapper ul li.total .star-rating span {
+    height: 14px;
+    /* background-image: url(/static/pc/images/product/ico_star_bb.png); */
+    background-size: 74px 28px;
+}
+
+.curation .review .review_txt .star_wrapper ul li span.tit {
+    display: inline-block;
+    font-size: 13px;
+    color: #505050;
+    line-height: 12px;
+    margin-right: 10px;
+}
+
+.curation .review .review_txt .star_wrapper ul li .star-rating, .curation .review .star_wrapper ul li .star-rating span {
+    height: 11px;
+    background-size: 55px 22px;
+}
+
+element.style {
+    width: 100%;
+}
+
+.curation .review .review_txt .star_wrapper ul li .star-rating {
+    width: 55px;
+}
+
+.review_text {
+    text-align: center;
+}
+
+.curation .review .review_txt p.txt {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #4b4b4b;
+    line-height: 26px;
+    padding-right: 100px;
+}
+
+.review_text img {
+    width: 510px;
+    height: auto;
+}
+
+.pagination {
+    margin-top: 60px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0;
+}
+
+.pagination .prev {
+    background-image: url(./mmbs/page_prev.png);
+    margin-right: 14px;
+}
+
+.pagination .next {
+    /* background-image: url(./mmbs/page_prev\ \(1\).png); */
+    margin-left: 14px;
+}
+
+.pagination .prev, .pagination .next {
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+    background-color: #0c0c0c;
+    box-sizing: border-box;
+}
+
+.pagination .on {
+    background-color: #5d7b71;
+    font-weight: 500;
+    color: #fff;
+}
+
+.pagination a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+}
