@@ -9,6 +9,8 @@ import com.mong.mmbs.entity.UserEntity;
 public interface UserRepository extends JpaRepository<UserEntity, String>{
 	
 	public boolean existsByUserEmail(String userEmail);
+
+	public boolean existsByUserId(String userId);
 	
 	public UserEntity findByUserEmail(String userEmail);
 	

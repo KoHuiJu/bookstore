@@ -24,6 +24,7 @@ import UserAskList from './pages/UserAsk/UserAskList';
 import UserAskWrite from './pages/UserAsk/UserAskWrite';
 import UserAskUpdate from './pages/UserAsk/UserAskUpdate';
 import Withdraw from './pages/Withdraw';
+import MyPage from "./layouts/MyPage";
 
 import { useUserStore } from "./stores";
 import { useCookies } from "react-cookie";
@@ -75,7 +76,7 @@ function App() {
           {/* // component : 로그인 화면 */}
           <Route path="/signup" element={<SignUp />} />
           {/* // component : 마이페이지 화면 */}
-
+          <Route path="/myPage" element={<MyPage />} />
           {/* // component : 회원정보수정 화면 */}
           <Route path="/userUpdate" element={<UserUpdate />} />
           {/* // component : 회원 문의 화면 */}

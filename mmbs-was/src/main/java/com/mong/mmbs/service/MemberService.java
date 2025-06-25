@@ -15,6 +15,11 @@ public class MemberService {
 	
 	private PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 	
+     /** ID 중복 체크 */
+    public boolean checkId(String userId) {
+        return userRepository.existsByUserId(userId);
+    }
+
     /** 이메일이 존재하는지 확인 **/
     public boolean checkEmail(String userEmail) {
         /* 이메일이 존재하면 true, 이메일이 없으면 false  */
